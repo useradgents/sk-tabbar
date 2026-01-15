@@ -1,3 +1,5 @@
+@file:Suppress("unused")
+
 package tech.skot.libraries.tabbar
 
 import tech.skot.core.components.SKComponent
@@ -39,7 +41,6 @@ class SKBottomNavFrame(
                 } else {
                     {
                         tabScreen.stack.state.screens.firstOrNull()?.removeAllScreensOnTop()
-
                     }
                 }
 

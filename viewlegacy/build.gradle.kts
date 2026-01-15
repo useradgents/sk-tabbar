@@ -10,12 +10,12 @@ android{
 }
 
 kotlin {
+    jvmToolchain(17)
+    compilerOptions {
+        apiVersion.set(org.jetbrains.kotlin.gradle.dsl.KotlinVersion.KOTLIN_2_2)
+    }
     androidTarget("android") {
-        compilations.all {
-            kotlinOptions {
-                jvmTarget = "1.8"
-            }
-        }
+
     }
 }
 
