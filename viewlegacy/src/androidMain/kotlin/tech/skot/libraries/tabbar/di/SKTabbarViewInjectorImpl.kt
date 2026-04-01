@@ -8,6 +8,7 @@ import tech.skot.core.view.Icon
 import tech.skot.libraries.tabbar.*
 
 class SKTabbarViewInjectorImpl : SKTabbarViewInjector {
+    @Suppress("UNCHECKED_CAST")
     override fun skBottomNavFrame(frame: SKFrameVC, tabs: List<SKComponentVC>, addTabs:Boolean) =
         SKBottomNavFrameViewProxy(frame as SKFrameViewProxy, tabs as List<SKComponentViewProxy<*>>, addTabs)
 

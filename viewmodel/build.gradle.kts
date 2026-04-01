@@ -5,8 +5,11 @@ plugins {
     signing
 }
 
-android {
-    namespace = "tech.skot.libraries.tabbar"
+kotlin {
+    android {
+        compileSdk = 36
+        namespace = "tech.skot.libraries.tabbar"
+    }
 }
 
 

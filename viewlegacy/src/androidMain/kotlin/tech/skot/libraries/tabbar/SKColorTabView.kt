@@ -8,7 +8,6 @@ import tech.skot.core.setBackground
 import tech.skot.core.view.Color
 import tech.skot.core.view.Icon
 import tech.skot.libraries.tabbar.viewlegacy.databinding.SkColorTabBinding
-import tech.skot.libraries.tabbar.viewlegacy.databinding.SkSimpleTabBinding
 import tech.skot.view.extensions.setOnClick
 import tech.skot.view.extensions.setVisible
 
