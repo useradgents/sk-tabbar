@@ -1,15 +1,11 @@
 plugins {
-    kotlin("multiplatform")
     id("tech.skot.library")
     id("maven-publish")
     signing
 }
 
-kotlin {
-    android {
-        compileSdk = 36
-        namespace = "tech.skot.libraries.tabbar"
-    }
+android {
+    namespace = "tech.skot.libraries.tabbar"
 }
 
 

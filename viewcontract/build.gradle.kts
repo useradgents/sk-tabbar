@@ -1,5 +1,4 @@
 plugins {
-    kotlin("multiplatform")
     id("tech.skot.library-contract")
     id("maven-publish")
     signing

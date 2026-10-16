@@ -1,22 +1,8 @@
 plugins {
-    kotlin("multiplatform")
-    id("maven-publish")
+    id("tech.skot.library-viewmodeltests")
     signing
 }
 
-
-kotlin {
-    jvm("jvm")
-
-    sourceSets {
-        val jvmMain by getting {
-
-            kotlin.srcDir("src/jvmMain/kotlin")
-
-            dependencies {
-                implementation(project(":viewmodel"))
-                implementation("${Versions.frameworkGroup}:viewmodelTests:${Versions.framework}")
-            }
-        }
-    }
+android {
+    namespace = "tech.skot.libraries.tabbar.viewmodeltests"
 }
